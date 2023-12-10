@@ -53,7 +53,7 @@ nav {
 }
 
 .selected {
-    background-color: rgb(112, 211, 112);
+    background-color: rgb(60, 255, 83);
     transition: all;
     transition-duration: 100ms;
 }
@@ -62,8 +62,6 @@ nav {
     cursor: pointer;
     background-color: rgb(60, 255, 83);
     border: 1px solid;
-    scale: 2rem;
-    box-shadow: 2px;
 }
 
 .img-banner {
