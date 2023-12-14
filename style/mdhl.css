@@ -120,6 +120,7 @@ article{
 
 h3{
     margin-top: 32px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .img-the-team {
@@ -227,4 +228,112 @@ table{
     display: flex;
     justify-content: space-around;
     margin-top: 32px;
+}
+
+.phone, .email{
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+form{
+    margin-left: 95px;
+    width: 720px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.inp-firstname{
+    width: 240px;
+}
+
+.inp-adress{
+    width: 563px;
+}
+
+.inp-city{
+    width: 353px;
+}
+
+.inp-zipcode{
+    width: 211px;
+}
+
+.genre{
+    margin-left: 67px;
+}
+
+.inp-marjorie{
+    margin-left: 100px;
+}
+
+.inp-north{
+    margin-left: 150px;
+}
+
+.inp-south{
+    margin-left: 90px;
+}
+
+.inp-midfield{
+    margin-left: 100px;
+}
+
+.inp-goalkeeper{
+    margin-left: 110px;
+}
+
+.inp-medium{
+    margin-left: 100px;
+}
+
+.inp-large{
+    margin-left: 78px;
+}
+
+.inp-extralarge{
+    margin-left: 93px;
+}
+
+fieldset{
+    border: 2px solid blue;
+    margin-top: 32px;
+}
+
+#submit{
+    border: 2px solid black;
+    border-radius: 32px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(1, 31, 140);
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgb(193, 35, 35);
+}
+
+.map{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    margin-left: 250px;
+}
+
+h5{
+    margin-left: 430px;
+    margin-top: 32px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+h6{
+    margin-left: 80px;
+    margin-top: 32px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+iframe{
+    width: 400px;
+    height: 400px;
 }
