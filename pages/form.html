@@ -36,7 +36,7 @@
                     <input class="inp-firstname" type="text" id="firstname" name="First-Name" placeholder="Ej: Juan">
 
                     <label class="lastname" for="lastname">Last Name:</label>
-                    <input type="text" id="lastname" name="Last-Name" placeholder="Ej: Pérez">
+                    <input class="inp-lastname" type="text" id="lastname" name="Last-Name" placeholder="Ej: Pérez">
                 </div>
                 <div>
                     <label for="streetadress">Street Adress:</label>
@@ -97,16 +97,14 @@
                     <input type="checkbox" name="Closest-School" value="Greenbay" id="greenbay">
                     <label for="greenbay">Greenbay</label>
 
-                    <input class="inp-north" type="checkbox" name="Closest-School" value="North Elementary"
-                        id="north">
+                    <input class="inp-north" type="checkbox" name="Closest-School" value="North Elementary" id="north">
                     <label for="north">North Elementary</label>
                 </div>
                 <div>
                     <input type="checkbox" name="Closest-School" value=" Howard A Yeager" id="howard">
                     <label for="howard">Howard A Yeager</label>
 
-                    <input class="inp-south" type="checkbox" name="Closest-School" value="South Elementary"
-                        id="south">
+                    <input class="inp-south" type="checkbox" name="Closest-School" value="South Elementary" id="south">
                     <label for="south">South Elementary</label>
 
                 </div>
@@ -169,7 +167,8 @@
                         used for practices and games, against any claim by or on behalf of the registrant´s
                         participation in the programand/orbeing transported to or from MDHL sponsored activities, wich
                         transportation.
-                        By entering your name below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
+                        By entering your name below, I herebyagree andauthorizethe above. In addition, by signing below,
+                        lalso
                         acknowledge that I have read the cancellation policy and agree to its terms. </p>
                 </div>
                 <div>
@@ -180,8 +179,10 @@
                     <label for="date">Date:</label>
                     <input type="text" name="Date" id="date">
                 </div>
-                <label for="submit">Submit</label>
-                <input type="submit" name="Enviar" id="submit">
+                <div class="submit">
+                    <label for="submit">Submit</label>
+                    <input type="submit" name="Enviar" id="submit">
+                </div>
             </fieldset>
         </form>
     </main>
